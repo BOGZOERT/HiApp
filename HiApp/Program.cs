@@ -23,8 +23,9 @@ namespace HiAppThisGarbage
         static void Main(string[] args)
             
         {
-            Mypoints _position = new Mypoints(x , y );
-            Console.WriteLine($"{_position}"); //вывод в консоль "_position"
+            Mypoints _position = new Mypoints(x , y); 
+            Console.WriteLine($"{_position}");           //вывод в консоль "_position"
+            //вывели название проекта 
 
             int Year = 0;
             Year.ToString();
