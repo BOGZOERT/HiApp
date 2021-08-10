@@ -23,9 +23,12 @@ namespace HiAppThisGarbage
         static void Main(string[] args)
             
         {
+
             Mypoints _position = new Mypoints(x , y );
 
             Console.WriteLine($"{_position}"); //вывод в консоль "_position"
+
+
 
             String name = Console.ReadLine();
 
