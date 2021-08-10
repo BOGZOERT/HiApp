@@ -24,18 +24,21 @@ namespace HiAppThisGarbage
             
         {
             Mypoints _position = new Mypoints(x , y );
+
             Console.WriteLine($"{_position}"); //вывод в консоль "_position"
+
+            String name = Console.ReadLine();
 
             int Year = 0;
             Year.ToString();
             string Name;
             Name = "He/She";
+
             Console.WriteLine("What is youre name");
-            String name = Console.ReadLine();
+            
             Console.WriteLine( $" {name}");
             {
                
-
                 Console.WriteLine("Привет");
 
                 Console.WriteLine("Добро пожаловать в C#");
