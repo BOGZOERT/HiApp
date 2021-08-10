@@ -39,9 +39,7 @@ namespace HiAppThisGarbage
                 Console.WriteLine("Привет");
 
                 Console.WriteLine("Добро пожаловать в C#");
-                {
-                    Console.WriteLine(true);
-                    Console.WriteLine("Name + nameReadLine:");
+                {                    
                     {
                         Name = "SH_ss";
                         Console.WriteLine($" {Name} + {name}");
